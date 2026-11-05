@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internship Skill Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Internship Skill Checker</h1>
+
+    <p>Discover your skills and prepare for your dream internship.</p>
+
+    <h2>Find Your Internship Readiness</h2>
+
+    <p>Select your career role:</p>
+
+    <select id="role">
+        <option value="web">Web Developer Intern</option>
+        <option value="data">Data Analyst Intern</option>
+        <option value="python">Python Developer Intern</option>
+    </select>
+
+    <h2>Select Your Existing Skills</h2>
+
+    <div class="skills">
+        <label><input type="checkbox" value="HTML"> HTML</label>
+        <label><input type="checkbox" value="CSS"> CSS</label>
+        <label><input type="checkbox" value="JavaScript"> JavaScript</label>
+        <label><input type="checkbox" value="React"> React</label>
+        <label><input type="checkbox" value="Git"> Git</label>
+        <label><input type="checkbox" value="Python"> Python</label>
+        <label><input type="checkbox" value="SQL"> SQL</label>
+        <label><input type="checkbox" value="Excel"> Excel</label>
+        <label><input type="checkbox" value="Pandas"> Pandas</label>
+        <label><input type="checkbox" value="OOP"> OOP</label>
+    </div>
+
+    <button id="checkButton">Check My Skills</button>
+
+    <div id="result" aria-live="polite"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
